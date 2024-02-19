@@ -7,11 +7,25 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     font-weight: bold;
+    padding: 20px;
+    margin: auto;
 }
 
 h2 {
     color: purple;
     background-color: lightpink;
+}
+
+.recipes li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: thick double violet;
+    background-color: turquoise;
+}
+
+.recipes a {
+    text-decoration: none;
 }
 
 .description-recipe {
